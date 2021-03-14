@@ -1,6 +1,8 @@
 <div id="app">
   <h3>Personne :</h3>
   <ul>
-    <li v-for="valeur in personne">{{ valeur }} </li>
+   	<li v-for="(valeur, cle) in personne">
+			<strong>{{ cle }}</strong> : {{ valeur }} 
+    </li
   </ul>
 </div>
